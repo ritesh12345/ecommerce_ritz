@@ -20,7 +20,7 @@ namespace Core.Specifications.SpecParams
             set => _pageSize = _pageSize > MaxPageSize ? MaxPageSize : value; 
         }
 
-        private int _pageIndex;
+        private int _pageIndex = 1;
 
         public int PageIndex
         {
