@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ecommerce_ritz
+  title: API ECommerceRitz
+  description: This API handles the products listing and filtering
+  tags:
+    - dotnet
+    - backend
+  annotations:
+    backstage.io/techdocs-ref: url:https://my-api.internal/docs
+spec:
+  type: http
+  lifecycle: production
+  owner: ritesh.crazy04@gmail.com
+  system: EcommerceRitz
+  definition: https://localhost:5001/swagger/v1/swagger.json
