@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ecommerce-ritz
+  description: .NET Core Web API backend for Ecommerce Ritz
+spec:
+  type: service
+  lifecycle: production
+  owner: ritesh.crazy04@gmail.com
+  system: ecommerce-ritz
+  providesApis:
+    - ecommerce-ritz-service-api
