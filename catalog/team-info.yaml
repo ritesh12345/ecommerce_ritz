@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-ritz
+spec:
+  type: team
+  profile:
+    displayName: Ecommerce Ritz Team
+    email: ritesh.crazy04@gmail.com
+  parent: team-ecommerece-ritz
+  children: []
