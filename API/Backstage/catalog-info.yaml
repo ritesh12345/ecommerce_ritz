@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Ecommerce-Ritz-API
+  description: ECommerce application API with Swagger documentation
+  tags:
+    - backend
+spec:
+  type: openapi
+  lifecycle: production
+  owner: ritesh.crazy04@gmail.com
+  definition:
+    # If your API is running publicly (or locally and accessible)
+    $text: https://localhost:5001/swagger/v1/swagger.json
