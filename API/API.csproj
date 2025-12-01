@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Backstage\" />
+    <Folder Include="catalog\" />
   </ItemGroup>
 
 </Project>
