@@ -11,4 +11,4 @@ spec:
   owner: ritesh.crazy04@gmail.com
   definition:
     # If your API is running publicly (or locally and accessible)
-    $text: https://localhost:5001/swagger/v1/swagger.json
+    $file: ./swagger.json
