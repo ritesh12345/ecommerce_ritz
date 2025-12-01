@@ -9,6 +9,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: ritesh.crazy04@gmail.com
-  definition:
+  definition: https://raw.githubusercontent.com/ritesh12345/ecommerce_ritz/refs/heads/master/API/catalog/swagger.json
     # If your API is running publicly (or locally and accessible)
-    $file: ./swagger.json
